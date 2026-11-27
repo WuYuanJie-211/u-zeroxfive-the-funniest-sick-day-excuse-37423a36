@@ -9,19 +9,19 @@ the funniest excuse that lands in one breath, and nothing else.
 
 ## The line
 
-> I woke up with a fever of 39.2 and a voice like a fax machine; the doctor said rest, fluids, and absolutely no spreadsheets.
+> I stayed up until 4 a.m. proving to WebMD that I wasn't sick, and WebMD has now diagnosed me with 'arguing with a website until sunrise.'
 
 ## Why it works
 
-Half believable (a real fever, a real doctor's order), one concrete number
-(39.2), one fresh image (a voice like a fax machine), and the laugh lands in
-the final words — the doctor's prescription is not medicine, it is a ban on
-spreadsheets.
+One thread (a night spent arguing with a symptom checker), one concrete time
+(4 a.m.), and the laugh lands in the final words — the diagnosis is not an
+illness, it is a quoted verdict on arguing with a website until sunrise.
 
 ## Run
 
 ```sh
-npx tsx main.ts
+node main.ts
 ```
 
-Writes the line to `/output/entry.txt`.
+Writes the line to `/output/entry.txt` (mode 0644), then reads it back and
+refuses to exit 0 unless the content is byte-identical and the mode is 0644.
